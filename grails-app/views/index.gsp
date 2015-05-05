@@ -89,7 +89,7 @@
                 <li>JVM version: ${System.getProperty('java.version')}</li>
                 <li>Reloading active: ${grails.util.Environment.reloadingAgentEnabled}</li>
             </ul>
-            <h1>Artefacts</h1>
+            <h1>Artifacts</h1>
             <ul>
                 <li>Controllers: ${grailsApplication.controllerClasses.size()}</li>
                 <li>Domains: ${grailsApplication.domainClasses.size()}</li>
@@ -104,10 +104,8 @@
             </ul>
         </div>
         <div id="page-body" role="main">
-            <h1>Welcome to Grails</h1>
-            <p>Congratulations, you have successfully started your first Grails application! At the moment
-               this is the default page, feel free to modify it to either redirect to a controller or display whatever
-               content you may choose. Below is a list of controllers that are currently deployed in this application,
+            <h1>Welcome to Darwin's Grails Sandbox</h1>
+            <p>Below is a list of controllers that are currently deployed in this application,
                click on each to execute its default action:</p>
 
             <div id="controller-list" role="navigation">
